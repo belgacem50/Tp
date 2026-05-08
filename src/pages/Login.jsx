@@ -22,7 +22,7 @@ export default function Login() {
       navigate("/api-key"); // 👈 Forcé yemchi hna
     }
   } else {
-    setError("Compte ghalet");
+    setError("Compte invalid");
   }
 };
 
@@ -62,3 +62,4 @@ export default function Login() {
     </div>
   );
 }
+;
