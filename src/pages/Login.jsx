@@ -53,6 +53,7 @@ export default function Login() {
             required
           />
         </div>
+        <button>ajouter</button>
 
         <button type="submit" className="login-btn" disabled={loading}>
           {loading ? "Connexion..." : "Se connecter"}
